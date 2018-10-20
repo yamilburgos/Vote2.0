@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace Vote_2._0
+namespace Vote
 {
 	public class FilterConfig
 	{

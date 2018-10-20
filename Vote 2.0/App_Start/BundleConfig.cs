@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace Vote_2._0
+namespace Vote
 {
 	public class BundleConfig
 	{

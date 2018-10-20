@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace Vote_2._0.Controllers
+namespace Vote.Controllers
 {
 	public class HomeController : Controller
 	{
