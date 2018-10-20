@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
-namespace Vote.Models.Enums
+﻿namespace Vote.Models.Enums
 {
-	public class FederalLevel
+	public enum FederalLevel
 	{
+		President = 0,
+		Senator = 1,
+		Representative = 2
 	}
 }

@@ -2,72 +2,69 @@
     ViewBag.Title = "Home Page";
 }
 
-<div class="row">
-    <div class="col-md-4">
-        <select name="Office Level">
-            <option value="Senate">Senate</option>
-            <option value="Governor">Governor</option>
-            <option value="District">District</option>
-            <option value="audi">Audi</option>
-        </select>
-    </div>
-
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-    </div>
-</div>
-
 <div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="form-group">
+                <label for="sel1">Government:</label>
+                <select class="form-control" id="sel1">
+                    <option>Federal</option>
+                    <option>State</option>
+                    <option>Local</option>
+                </select>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="form-group">
+                <label for="sel1">Location:</label>
+                <select class="form-control" id="sel1">
+                    <option>New York</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="form-group">
+                <label for="sel1">Federal:</label>
+                <select class="form-control" id="sel1">
+                    <option>President</option>
+                    <option>Senator</option>
+                    <option>Representative</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="form-group">
+                <label for="sel1">State:</label>
+                <select class="form-control" id="sel1">
+                    <option>Legislature</option>
+                    <option>Governor</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="form-group">
+                <label for="sel1">Local:</label>
+                <select class="form-control" id="sel1">
+                    <option>Mayor</option>
+                    <option>CountyExecutive</option>
+                    <option>District</option>
+                </select>
+            </div>
+        </div>
+    </div>
 </div>
 
 <div class="row">
     <div class="col-md-3">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-        <ul>
-            <li>Option 1</li>
-            <li>Option 2</li>
-            <li>Option 3</li>
-            <li>Option 4</li>
-            <li>Option 5</li>
-        </ul>
-        <button>Vote</button>
-        <br>
-        <a href="">How are you feeling?</a>
-    </div>
-    <div class="col-md-3">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-        <ul>
-            <li>Option 1</li>
-            <li>Option 2</li>
-            <li>Option 3</li>
-            <li>Option 4</li>
-            <li>Option 5</li>
-        </ul>
-        <button>Vote</button>
-        <br>
-        <a href="">How are you feeling?</a>
-    </div>
-    <div class="col-md-3">
-        <h2>Web Hosting</h2>
+        <h2>Canidate 1</h2>
+        <img src="~/Content/DummyImage.png" />
         <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
         <ul>
             <li>Option 1</li>
             <li>Option 2</li>
@@ -75,7 +72,53 @@
             <li>Option 4</li>
             <li>Option 5</li>
         </ul>
-        <button>Vote</button>
+        <button type="button" class="btn btn-primary btn-block">Vote</button>
+        <br>
+        <a href="">How are you feeling?</a>
+    </div>
+    <div class="col-md-3">
+        <h2>Canidate 2</h2>
+        <img src="~/Content/DummyImage.png" />
+        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
+        <ul>
+            <li>Option 1</li>
+            <li>Option 2</li>
+            <li>Option 3</li>
+            <li>Option 4</li>
+            <li>Option 5</li>
+        </ul>
+        <button type="button" class="btn btn-primary btn-block">Vote</button>
+        <br>
+        <a href="">How are you feeling?</a>
+    </div>
+    <div class="col-md-3">
+        <h2>Canidate 3</h2>
+        <img src="~/Content/DummyImage.png" />
+        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
+        <ul>
+            <li>
+                <p>
+                    <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        Link with href
+                    </a>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        Button with data-target
+                    </button>
+                </p>
+                <div class="collapse" id="collapseExample">
+                    <div class="card card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                    </div>
+                </div>
+            </li>
+
+            <li>Option 1</li>
+            <li>Option 2</li>
+            <li>Option 3</li>
+            <li>Option 4</li>
+            <li>Option 5</li>
+        </ul>
+        <button type="button" class="btn btn-primary btn-block">Vote</button>
         <br>
         <a href="">How are you feeling?</a>
     </div>

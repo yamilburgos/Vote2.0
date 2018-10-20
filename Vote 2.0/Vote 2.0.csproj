@@ -153,6 +153,9 @@
     </Compile>
     <Compile Include="Models\Enums\FederalLevel.cs" />
     <Compile Include="Models\Enums\GovernmentLevel.cs" />
+    <Compile Include="Models\Enums\LocalLevel.cs" />
+    <Compile Include="Models\Enums\Party.cs" />
+    <Compile Include="Models\Enums\StateLevel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -160,6 +163,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\DummyImage.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
